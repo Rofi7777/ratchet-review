@@ -122,7 +122,10 @@ Agent(
 ## Reader Personas
 
 > Before Critic review, load the appropriate Persona card based on the target reader.
-> Create your own Personas in `examples/personas/`. Template:
+> Personas are optional — without custom personas, the Critic uses a general executive reader profile.
+> To customize, copy the examples into your skill directory:
+> `cp -r <repo>/examples/personas/ ~/.claude/skills/ratchet-review/personas/`
+> Then edit to match your organization's stakeholders. Template:
 
 ```yaml
 name: [Reader Name / Role]
@@ -192,7 +195,8 @@ Applies to: Email, PPTX, DOCX, PDF, Excel
 - First sentence is conclusion + Ask, data has comparison baselines, under 150 words, risks transparent
 - This is the quality bar for executive deliverables
 
-> Customize anchors for your context in `examples/anchors/`.
+> Anchors are optional — the defaults above work out of the box.
+> To customize, copy `<repo>/examples/anchors/` into your skill directory and edit to match your real cases.
 
 ## Execution Flow
 
