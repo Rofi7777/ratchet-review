@@ -1,11 +1,13 @@
 # Ratchet Review
 
+**Ratchet Review** is an open-source [Claude Code](https://claude.ai/code) skill
+that runs an independent AI agent to review your AI-generated output before it ships.
+It catches factual errors, score inflation, and buried conclusions using a 5-layer
+adversarial quality gate with calibrated scoring and a ratchet mechanism that
+ensures each revision improves on the last.
+
 > Before: "This report looks great."
 > After: "This report is great AND the client name is actually spelled right."
-
-A 5-layer adversarial quality gate for [Claude Code](https://claude.ai/code)
-that catches factual errors, score inflation, and buried conclusions
-before your output reaches its audience.
 
 ## Why This Exists
 

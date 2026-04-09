@@ -1,0 +1,21 @@
+# Ratchet Review
+
+> A 5-layer adversarial quality gate for Claude Code that catches factual errors, score inflation, and buried conclusions before your AI output ships.
+
+## Core Documentation
+
+- [README](https://github.com/Rofi7777/ratchet-review/blob/main/README.md): Overview, installation, usage, FAQ
+- [Architecture](https://github.com/Rofi7777/ratchet-review/blob/main/docs/architecture.md): 5-layer system design deep dive
+- [Customization](https://github.com/Rofi7777/ratchet-review/blob/main/docs/customization.md): How to add personas, anchors, format rules
+
+## Skill Files
+
+- [SKILL.md](https://github.com/Rofi7777/ratchet-review/blob/main/skill/SKILL.md): Core engine specification
+- [PPTX-RULES.md](https://github.com/Rofi7777/ratchet-review/blob/main/skill/PPTX-RULES.md): Presentation review rules
+- [DESIGN-RULES.md](https://github.com/Rofi7777/ratchet-review/blob/main/skill/DESIGN-RULES.md): Visual asset review rules
+
+## Examples
+
+- [Before/After](https://github.com/Rofi7777/ratchet-review/blob/main/examples/before-after/email-review.md): Complete review cycle walkthrough
+- [Personas](https://github.com/Rofi7777/ratchet-review/tree/main/examples/personas): Reader persona templates
+- [Anchors](https://github.com/Rofi7777/ratchet-review/tree/main/examples/anchors): Scoring calibration examples
